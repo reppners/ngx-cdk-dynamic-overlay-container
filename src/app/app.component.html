@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<button mat-raised-button
+        (click)="openDialog()">root dialog
+</button>
+
+<button mat-raised-button
+        (click)="openCustomDialog()">root custom dialog
+</button>
+
+<sst-scoped-host></sst-scoped-host>
+
+<a mat-raised-button
+   routerLink="lazy">load lazy module
+</a>
+
+<router-outlet></router-outlet>
